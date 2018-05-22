@@ -1,0 +1,23 @@
+.fnt {
+	color: #99CC00;
+}
+p {
+	color: #000000;
+}
+.sec-heading {
+	color: #016773 !important;
+	text-align: center;
+	font-family: Milonga;
+	margin: auto;
+	width: auto;
+	padding: 25px;
+    text-transform: uppercase;
+    transition: transform .2s;
+    text-decoration: underline;
+	text-decoration-color: aqua;
+}
+.sec-heading:hover{
+    transform: rotateZ(5deg);
+     transform: scale(1.5);
+
+}
