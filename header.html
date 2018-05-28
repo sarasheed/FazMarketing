@@ -1,0 +1,79 @@
+<div class="top-container">
+<a href="index.html" class="text-center">
+                <img src="images/logo.png"
+                     style="width: auto; margin: 0 auto;"
+                     alt="Faz Marketing" class="img-responsive"></a>
+</div>
+<!--header-banner-section-starts-here -->
+<section class="header-banner" style="background: darkkhaki;">
+	<div class="header">
+		<div class="container">
+            <header role="banner">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-right">
+					<button type="button" class="navbar-toggle collapsed" 
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+                
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-left" id="bs-example-navbar-collapse-1 myDIV">
+					<nav class="cl-effect-13" id="cl-effect-13">
+						<ul class="nav navbar-nav">
+							<li class="f active"><a href="index.html">
+                                <i class="fas fa-home"></i>Home</a></li>
+							<li class="f"><a href="services.html" class=" scroll">
+                                <i class="fas fa-cogs"></i>Services</a></li>
+                            <li class="f"><a href="clients.html" class=" scroll">
+                                <i class="fas fa-people-carry"></i>Our Clients</a></li>
+							<li class="f"><a href="testimonials.html" class=" scroll">
+                                <i class="fas fa-quote-left"></i>Testimonials</a></li>
+							<li class="f"><a href="campaigns.html" class=" scroll">
+                                <i class="fab fa-affiliatetheme"></i>Campaigns</a></li>
+                            <!--<li><a href="#events" class=" scroll">events</a></li>-->
+							<li class="f"><a href="contact.html" class=" scroll">
+                                <i class="fas fa-phone-square"></i>
+                                Contact</a></li>
+						</ul>
+						
+					</nav>
+				</div>	
+<!--
+				<div class="search">
+					<input class="search_box" type="checkbox" id="search_box">
+					<label class="icon-search" for="search_box">
+                        <span class="fa fa-search" aria-hidden="true"></span></label>
+					<div class="search_form">
+						<form action="#" method="post">
+							<input type="text" name="Search" placeholder="Search...">
+							<input type="submit" value="">
+						</form>
+					</div>
+				</div>
+-->
+
+				<div class="clearfix"> </div>
+                </nav></header>				
+		</div>
+	</div>
+	
+    </section>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("f");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+    <!--//header-banner-section-end-here -->
